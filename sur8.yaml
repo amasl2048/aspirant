@@ -1,0 +1,840 @@
+- in_rate:  0.6
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 0.6   1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 106973
+  determinant:  -36271.0353663
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  9.99128292e-01   4.14676727e-04   2.08494826e-04   1.63400634e-04
+   8.51347039e-05   8.05967908e-10   2.74364902e-10   1.17977692e-10]
+  queue mean size:  1.51804205846
+  stdev:  2.48169579888
+  prob_good:  0.000632545950852
+#!!!
+- in_rate:  0.65
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 0.65  1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 97798
+  determinant:  -47580.8669202
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  9.94675076e-01   2.53309821e-03   1.27361348e-03   9.98150667e-04
+   5.20054663e-04   4.92334138e-09   1.67598759e-09   7.20674345e-10]
+  queue mean size:  1.96524416781
+  stdev:  3.33898156036
+  prob_good:  0.00381437464256
+#!!!
+- in_rate:  0.7
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 0.7   1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 86977
+  determinant:  -66113.6544708
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  9.73681787e-01   1.25197305e-02   6.29478066e-03   4.93331738e-03
+   2.57034813e-03   2.43334065e-08   8.28349771e-09   3.56190334e-09]
+  queue mean size:  2.85371088133
+  stdev:  5.12732452625
+  prob_good:  0.0186910056684
+#!!!
+- in_rate:  0.75
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 0.75  1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 71897
+  determinant:  -102843.430126
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  8.98278018e-01   4.83897524e-02   2.43298270e-02   1.90676633e-02
+   9.93459959e-03   9.40505492e-08   3.20163766e-08   1.37670435e-08]
+  queue mean size:  4.9360395568
+  stdev:  8.46629143761
+  prob_good:  0.0718147482458
+#!!!
+- in_rate:  0.8
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 0.8   1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 50627
+  determinant:  -198263.533876
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  7.17449983e-01   1.34410725e-01   6.75802112e-02   5.29636611e-02
+   2.75950313e-02   2.61241313e-07   8.89309030e-08   3.82402893e-08]
+  queue mean size:  9.06410231181
+  stdev:  13.1090640967
+  prob_good:  0.198635157868
+#!!!
+- in_rate:  0.85
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 0.85  1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 28774
+  determinant:  -510199.128562
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  4.68931093e-01   2.52632640e-01   1.27020870e-01   9.95482283e-02
+   5.18664386e-02   4.91017980e-07   1.67150715e-07   7.18748103e-08]
+  queue mean size:  14.2026323999
+  stdev:  17.3883240735
+  prob_good:  0.372188362341
+#!!!
+- in_rate:  0.9
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 0.9   1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 14421
+  determinant:  -1642549.20479
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  2.70902891e-01   3.46835835e-01   1.74385183e-01   1.36668377e-01
+   7.12067115e-02   6.74111748e-07   2.29478890e-07   9.86759244e-08]
+  queue mean size:  18.0217255127
+  stdev:  20.0443028961
+  prob_good:  0.509779120355
+#!!!
+- in_rate:  0.95
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 0.95  1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 7395
+  determinant:  -5798019.39097
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  1.57572388e-01   4.00747830e-01   2.01491532e-01   1.57912043e-01
+   8.22750484e-02   7.78895353e-07   2.65148978e-07   1.14014063e-07]
+  queue mean size:  20.0747626827
+  stdev:  21.3623745726
+  prob_good:  0.587960047892
+#!!!
+- in_rate:  1.0
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.    1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 4215
+  determinant:  -20570498.2998
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  9.89400082e-02   4.28639602e-01   2.15515204e-01   1.68902612e-01
+   8.80013350e-02   8.33105931e-07   2.83603164e-07   1.21949363e-07]
+  queue mean size:  21.0730054999
+  stdev:  21.9877817161
+  prob_good:  0.627993834701
+#!!!
+- in_rate:  1.05
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.05  1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 2702
+  determinant:  -70698734.6429
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  6.78009544e-02   4.43452635e-01   2.22963031e-01   1.74739591e-01
+   9.10425068e-02   8.61896612e-07   2.93403992e-07   1.26163719e-07]
+  queue mean size:  21.5716222716
+  stdev:  22.3000082119
+  prob_good:  0.64896311022
+#TRIVIAL
+- in_rate:  1.1
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.1   1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 1911
+  determinant:  -232543313.828
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  5.00418433e-02   4.51900750e-01   2.27210649e-01   1.78068515e-01
+   9.27769369e-02   8.78316408e-07   2.98993564e-07   1.28567235e-07]
+  queue mean size:  21.8399707267
+  stdev:  22.4693666931
+  prob_good:  0.660720483429
+#TRIVIAL
+- in_rate:  1.15
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.15  1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 1459
+  determinant:  -730235337.627
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  3.90970588e-02   4.57107249e-01   2.29828419e-01   1.80120101e-01
+   9.38458509e-02   8.88435784e-07   3.02438369e-07   1.30048501e-07]
+  queue mean size:  21.9969511522
+  stdev:  22.5693802666
+  prob_good:  0.667828672677
+#TRIVIAL
+- in_rate:  1.2
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.2   1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 1184
+  determinant:  -2191673135.21
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  3.18667587e-02   4.60546746e-01   2.31557759e-01   1.81475412e-01
+   9.45519926e-02   8.95120806e-07   3.04714062e-07   1.31027050e-07]
+  queue mean size:  22.0960910059
+  stdev:  22.6330801212
+  prob_good:  0.672430438384
+#TRIVIAL
+- in_rate:  1.25
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.25  1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 1020
+  determinant:  -6301724733.39
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  2.68059871e-02   4.62954185e-01   2.32768193e-01   1.82424048e-01
+   9.50462490e-02   8.99799916e-07   3.06306909e-07   1.31711974e-07]
+  queue mean size:  22.1629044913
+  stdev:  22.6763002745
+  prob_good:  0.675586786004
+#TRIVIAL
+- in_rate:  1.3
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.3   1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 940
+  determinant:  -17404955589.4
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  2.30940392e-02   4.64719981e-01   2.33656015e-01   1.83119848e-01
+   9.54087735e-02   9.03231925e-07   3.07475222e-07   1.32214349e-07]
+  queue mean size:  22.2103928909
+  stdev:  22.7071760272
+  prob_good:  0.677856939117
+#TRIVIAL
+- in_rate:  1.35
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.35  1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 910
+  determinant:  -46298696929.2
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  2.02670103e-02   4.66064815e-01   2.34332183e-01   1.83649771e-01
+   9.56848731e-02   9.05845751e-07   3.08365012e-07   1.32596958e-07]
+  queue mean size:  22.2456297549
+  stdev:  22.7301714131
+  prob_good:  0.679554144561
+#TRIVIAL
+- in_rate:  1.4
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.4   1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 899
+  determinant:  -118915088130.0
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  1.80474899e-02   4.67120654e-01   2.34863047e-01   1.84065818e-01
+   9.59016409e-02   9.07897885e-07   3.09063593e-07   1.32897348e-07]
+  queue mean size:  22.2727014199
+  stdev:  22.7478855139
+  prob_good:  0.680863836107
+#TRIVIAL
+- in_rate:  1.45
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.45  1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 895
+  determinant:  -295587980824.0
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  1.62611877e-02   4.67970409e-01   2.35290294e-01   1.84400658e-01
+   9.60760987e-02   9.09549472e-07   3.09625821e-07   1.33139106e-07]
+  queue mean size:  22.2940972568
+  stdev:  22.7619124024
+  prob_good:  0.681901254515
+#TRIVIAL
+- in_rate:  1.5
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.5   1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 894
+  determinant:  -712597228130.0
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  1.47938237e-02   4.68668443e-01   2.35641258e-01   1.84675714e-01
+   9.62194077e-02   9.10906173e-07   3.10087664e-07   1.33337699e-07]
+  queue mean size:  22.3114055033
+  stdev:  22.7732748595
+  prob_good:  0.682741103896
+#TRIVIAL
+- in_rate:  1.55
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.55  1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 895
+  determinant:  -1.66938063271e+12
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  1.35676630e-02   4.69251735e-01   2.35934530e-01   1.84905556e-01
+   9.63391598e-02   9.12039862e-07   3.10473591e-07   1.33503647e-07]
+  queue mean size:  22.3256807357
+  stdev:  22.7826551451
+  prob_good:  0.683433607992
+#TRIVIAL
+- in_rate:  1.6
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.6   1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 896
+  determinant:  -3.80709169105e+12
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  1.25281329e-02   4.69746245e-01   2.36183165e-01   1.85100415e-01
+   9.64406847e-02   9.13000996e-07   3.10800777e-07   1.33644337e-07]
+  queue mean size:  22.3376477047
+  stdev:  22.7905238941
+  prob_good:  0.684013613076
+#TRIVIAL
+- in_rate:  1.65
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.65  1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 897
+  determinant:  -8.46572369271e+12
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  1.16358622e-02   4.70170704e-01   2.36396578e-01   1.85267670e-01
+   9.65278276e-02   9.13825975e-07   3.11081614e-07   1.33765096e-07]
+  queue mean size:  22.3478195206
+  stdev:  22.7972153114
+  prob_good:  0.684505966366
+#TRIVIAL
+- in_rate:  1.7
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.7   1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 898
+  determinant:  -1.8382877205e+13
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  1.08617674e-02   4.70538945e-01   2.36581726e-01   1.85412773e-01
+   9.66034290e-02   9.14541691e-07   3.11325255e-07   1.33869863e-07]
+  queue mean size:  22.3565689436
+  stdev:  22.8029727754
+  prob_good:  0.684928812935
+#TRIVIAL
+- in_rate:  1.75
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.75  1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 899
+  determinant:  -3.9033121066e+13
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  1.01839167e-02   4.70861403e-01   2.36743854e-01   1.85539835e-01
+   9.66696308e-02   9.15168421e-07   3.11538605e-07   1.33961603e-07]
+  queue mean size:  22.3641729279
+  stdev:  22.8079774628
+  prob_good:  0.685295683829
+#TRIVIAL
+- in_rate:  1.8
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.8   1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 901
+  determinant:  -8.11459124343e+13
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  9.58546849e-03   4.71146088e-01   2.36886990e-01   1.85652014e-01
+   9.67280778e-02   9.15721737e-07   3.11726963e-07   1.34042597e-07]
+  queue mean size:  22.3708413392
+  stdev:  22.812366877
+  prob_good:  0.685616857599
+#TRIVIAL
+- in_rate:  1.85
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.85  1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 902
+  determinant:  -1.65353409295e+14
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  9.05328159e-03   4.71399253e-01   2.37014279e-01   1.85751771e-01
+   9.67800534e-02   9.16213789e-07   3.11894465e-07   1.34114623e-07]
+  queue mean size:  22.3767359935
+  stdev:  22.816247172
+  prob_good:  0.685900271371
+#TRIVIAL
+- in_rate:  1.9
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.9   1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 903
+  determinant:  -3.30623054782e+14
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  8.57695495e-03   4.71625844e-01   2.37128206e-01   1.85841058e-01
+   9.68265735e-02   9.16654193e-07   3.12044386e-07   1.34179089e-07]
+  queue mean size:  22.3819835951
+  stdev:  22.819701552
+  prob_good:  0.686152144764
+#TRIVIAL
+- in_rate:  1.95
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.95  1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 904
+  determinant:  -6.49309275896e+14
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  8.14815088e-03   4.71829829e-01   2.37230767e-01   1.85921437e-01
+   9.68684523e-02   9.17050658e-07   3.12179350e-07   1.34237123e-07]
+  queue mean size:  22.3866847287
+  stdev:  22.8227961222
+  prob_good:  0.686377416149
+#TRIVIAL
+- in_rate:  0.6
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 0.6   1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 106973
+  determinant:  -36271.0353663
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  9.99128292e-01   4.14676727e-04   2.08494826e-04   1.63400634e-04
+   8.51347039e-05   8.05967908e-10   2.74364902e-10   1.17977692e-10]
+  queue mean size:  1.51804205846
+  stdev:  2.48169579888
+  prob_good:  0.000632545950852
+#!!!
+- in_rate:  0.65
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 0.65  1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 97798
+  determinant:  -47580.8669202
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  9.94675076e-01   2.53309821e-03   1.27361348e-03   9.98150667e-04
+   5.20054663e-04   4.92334138e-09   1.67598759e-09   7.20674345e-10]
+  queue mean size:  1.96524416781
+  stdev:  3.33898156036
+  prob_good:  0.00381437464256
+#!!!
+- in_rate:  0.7
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 0.7   1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 86977
+  determinant:  -66113.6544708
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  9.73681787e-01   1.25197305e-02   6.29478066e-03   4.93331738e-03
+   2.57034813e-03   2.43334065e-08   8.28349771e-09   3.56190334e-09]
+  queue mean size:  2.85371088133
+  stdev:  5.12732452625
+  prob_good:  0.0186910056684
+#!!!
+- in_rate:  0.75
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 0.75  1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 71897
+  determinant:  -102843.430126
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  8.98278018e-01   4.83897524e-02   2.43298270e-02   1.90676633e-02
+   9.93459959e-03   9.40505492e-08   3.20163766e-08   1.37670435e-08]
+  queue mean size:  4.9360395568
+  stdev:  8.46629143761
+  prob_good:  0.0718147482458
+#!!!
+- in_rate:  0.8
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 0.8   1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 50627
+  determinant:  -198263.533876
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  7.17449983e-01   1.34410725e-01   6.75802112e-02   5.29636611e-02
+   2.75950313e-02   2.61241313e-07   8.89309030e-08   3.82402893e-08]
+  queue mean size:  9.06410231181
+  stdev:  13.1090640967
+  prob_good:  0.198635157868
+#!!!
+- in_rate:  0.85
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 0.85  1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 28774
+  determinant:  -510199.128562
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  4.68931093e-01   2.52632640e-01   1.27020870e-01   9.95482283e-02
+   5.18664386e-02   4.91017980e-07   1.67150715e-07   7.18748103e-08]
+  queue mean size:  14.2026323999
+  stdev:  17.3883240735
+  prob_good:  0.372188362341
+#!!!
+- in_rate:  0.9
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 0.9   1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 14421
+  determinant:  -1642549.20479
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  2.70902891e-01   3.46835835e-01   1.74385183e-01   1.36668377e-01
+   7.12067115e-02   6.74111748e-07   2.29478890e-07   9.86759244e-08]
+  queue mean size:  18.0217255127
+  stdev:  20.0443028961
+  prob_good:  0.509779120355
+#!!!
+- in_rate:  0.95
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 0.95  1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 7395
+  determinant:  -5798019.39097
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  1.57572388e-01   4.00747830e-01   2.01491532e-01   1.57912043e-01
+   8.22750484e-02   7.78895353e-07   2.65148978e-07   1.14014063e-07]
+  queue mean size:  20.0747626827
+  stdev:  21.3623745726
+  prob_good:  0.587960047892
+#!!!
+- in_rate:  1.0
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.    1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 4215
+  determinant:  -20570498.2998
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  9.89400082e-02   4.28639602e-01   2.15515204e-01   1.68902612e-01
+   8.80013350e-02   8.33105931e-07   2.83603164e-07   1.21949363e-07]
+  queue mean size:  21.0730054999
+  stdev:  21.9877817161
+  prob_good:  0.627993834701
+#!!!
+- in_rate:  1.05
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.05  1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 2702
+  determinant:  -70698734.6429
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  6.78009544e-02   4.43452635e-01   2.22963031e-01   1.74739591e-01
+   9.10425068e-02   8.61896612e-07   2.93403992e-07   1.26163719e-07]
+  queue mean size:  21.5716222716
+  stdev:  22.3000082119
+  prob_good:  0.64896311022
+#TRIVIAL
+- in_rate:  1.1
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.1   1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 1911
+  determinant:  -232543313.828
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  5.00418433e-02   4.51900750e-01   2.27210649e-01   1.78068515e-01
+   9.27769369e-02   8.78316408e-07   2.98993564e-07   1.28567235e-07]
+  queue mean size:  21.8399707267
+  stdev:  22.4693666931
+  prob_good:  0.660720483429
+#TRIVIAL
+- in_rate:  1.15
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.15  1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 1459
+  determinant:  -730235337.627
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  3.90970588e-02   4.57107249e-01   2.29828419e-01   1.80120101e-01
+   9.38458509e-02   8.88435784e-07   3.02438369e-07   1.30048501e-07]
+  queue mean size:  21.9969511522
+  stdev:  22.5693802666
+  prob_good:  0.667828672677
+#TRIVIAL
+- in_rate:  1.2
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.2   1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 1184
+  determinant:  -2191673135.21
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  3.18667587e-02   4.60546746e-01   2.31557759e-01   1.81475412e-01
+   9.45519926e-02   8.95120806e-07   3.04714062e-07   1.31027050e-07]
+  queue mean size:  22.0960910059
+  stdev:  22.6330801212
+  prob_good:  0.672430438384
+#TRIVIAL
+- in_rate:  1.25
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.25  1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 1020
+  determinant:  -6301724733.39
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  2.68059871e-02   4.62954185e-01   2.32768193e-01   1.82424048e-01
+   9.50462490e-02   8.99799916e-07   3.06306909e-07   1.31711974e-07]
+  queue mean size:  22.1629044913
+  stdev:  22.6763002745
+  prob_good:  0.675586786004
+#TRIVIAL
+- in_rate:  1.3
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.3   1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 940
+  determinant:  -17404955589.4
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  2.30940392e-02   4.64719981e-01   2.33656015e-01   1.83119848e-01
+   9.54087735e-02   9.03231925e-07   3.07475222e-07   1.32214349e-07]
+  queue mean size:  22.2103928909
+  stdev:  22.7071760272
+  prob_good:  0.677856939117
+#TRIVIAL
+- in_rate:  1.35
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.35  1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 910
+  determinant:  -46298696929.2
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  2.02670103e-02   4.66064815e-01   2.34332183e-01   1.83649771e-01
+   9.56848731e-02   9.05845751e-07   3.08365012e-07   1.32596958e-07]
+  queue mean size:  22.2456297549
+  stdev:  22.7301714131
+  prob_good:  0.679554144561
+#TRIVIAL
+- in_rate:  1.4
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.4   1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 899
+  determinant:  -118915088130.0
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  1.80474899e-02   4.67120654e-01   2.34863047e-01   1.84065818e-01
+   9.59016409e-02   9.07897885e-07   3.09063593e-07   1.32897348e-07]
+  queue mean size:  22.2727014199
+  stdev:  22.7478855139
+  prob_good:  0.680863836107
+#TRIVIAL
+- in_rate:  1.45
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.45  1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 895
+  determinant:  -295587980824.0
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  1.62611877e-02   4.67970409e-01   2.35290294e-01   1.84400658e-01
+   9.60760987e-02   9.09549472e-07   3.09625821e-07   1.33139106e-07]
+  queue mean size:  22.2940972568
+  stdev:  22.7619124024
+  prob_good:  0.681901254515
+#TRIVIAL
+- in_rate:  1.5
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.5   1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 894
+  determinant:  -712597228130.0
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  1.47938237e-02   4.68668443e-01   2.35641258e-01   1.84675714e-01
+   9.62194077e-02   9.10906173e-07   3.10087664e-07   1.33337699e-07]
+  queue mean size:  22.3114055033
+  stdev:  22.7732748595
+  prob_good:  0.682741103896
+#TRIVIAL
+- in_rate:  1.55
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.55  1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 895
+  determinant:  -1.66938063271e+12
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  1.35676630e-02   4.69251735e-01   2.35934530e-01   1.84905556e-01
+   9.63391598e-02   9.12039862e-07   3.10473591e-07   1.33503647e-07]
+  queue mean size:  22.3256807357
+  stdev:  22.7826551451
+  prob_good:  0.683433607992
+#TRIVIAL
+- in_rate:  1.6
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.6   1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 896
+  determinant:  -3.80709169105e+12
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  1.25281329e-02   4.69746245e-01   2.36183165e-01   1.85100415e-01
+   9.64406847e-02   9.13000996e-07   3.10800777e-07   1.33644337e-07]
+  queue mean size:  22.3376477047
+  stdev:  22.7905238941
+  prob_good:  0.684013613076
+#TRIVIAL
+- in_rate:  1.65
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.65  1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 897
+  determinant:  -8.46572369271e+12
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  1.16358622e-02   4.70170704e-01   2.36396578e-01   1.85267670e-01
+   9.65278276e-02   9.13825975e-07   3.11081614e-07   1.33765096e-07]
+  queue mean size:  22.3478195206
+  stdev:  22.7972153114
+  prob_good:  0.684505966366
+#TRIVIAL
+- in_rate:  1.7
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.7   1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 898
+  determinant:  -1.8382877205e+13
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  1.08617674e-02   4.70538945e-01   2.36581726e-01   1.85412773e-01
+   9.66034290e-02   9.14541691e-07   3.11325255e-07   1.33869863e-07]
+  queue mean size:  22.3565689436
+  stdev:  22.8029727754
+  prob_good:  0.684928812935
+#TRIVIAL
+- in_rate:  1.75
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.75  1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 899
+  determinant:  -3.9033121066e+13
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  1.01839167e-02   4.70861403e-01   2.36743854e-01   1.85539835e-01
+   9.66696308e-02   9.15168421e-07   3.11538605e-07   1.33961603e-07]
+  queue mean size:  22.3641729279
+  stdev:  22.8079774628
+  prob_good:  0.685295683829
+#TRIVIAL
+- in_rate:  1.8
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.8   1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 901
+  determinant:  -8.11459124343e+13
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  9.58546849e-03   4.71146088e-01   2.36886990e-01   1.85652014e-01
+   9.67280778e-02   9.15721737e-07   3.11726963e-07   1.34042597e-07]
+  queue mean size:  22.3708413392
+  stdev:  22.812366877
+  prob_good:  0.685616857599
+#TRIVIAL
+- in_rate:  1.85
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.85  1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 902
+  determinant:  -1.65353409295e+14
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  9.05328159e-03   4.71399253e-01   2.37014279e-01   1.85751771e-01
+   9.67800534e-02   9.16213789e-07   3.11894465e-07   1.34114623e-07]
+  queue mean size:  22.3767359935
+  stdev:  22.816247172
+  prob_good:  0.685900271371
+#TRIVIAL
+- in_rate:  1.9
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.9   1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 903
+  determinant:  -3.30623054782e+14
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  8.57695495e-03   4.71625844e-01   2.37128206e-01   1.85841058e-01
+   9.68265735e-02   9.16654193e-07   3.12044386e-07   1.34179089e-07]
+  queue mean size:  22.3819835951
+  stdev:  22.819701552
+  prob_good:  0.686152144764
+#TRIVIAL
+- in_rate:  1.95
+  buffer:  L=20, Qref=25, H=30, B=50
+  rates: [ 1.95  1.2   0.47  0.43  0.  ]
+  states: 160
+  rows sum: OK
+  condition number: 904
+  determinant:  -6.49309275896e+14
+  prob. sum:  1.0   #(should be 1)
+  test result: OK
+  probability:  [  8.14815088e-03   4.71829829e-01   2.37230767e-01   1.85921437e-01
+   9.68684523e-02   9.17050658e-07   3.12179350e-07   1.34237123e-07]
+  queue mean size:  22.3866847287
+  stdev:  22.8227961222
+  prob_good:  0.686377416149
+#TRIVIAL

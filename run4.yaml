@@ -1,0 +1,122 @@
+common:
+- lambda: 5.0
+  mean: 0.497
+  stdev: 1.12
+#UDP packets:
+  tx: 249952
+  rx: 249952
+  ratio_p: 0 # %
+  drop: 
+  drop_p: 0 # %
+#Utilization:
+  bw: 0.1 # Mbps
+  time: 50000 # sec
+  mbps: 311.67
+  util: 0.498672
+  snd_pkt: 249952
+  rx_pkt: 249952
+  drop_pkt: 
+  pkt_loss: 0 # %
+#mu10_lambda5.0
+#Done.
+- lambda: 7.0
+  mean: 1.64
+  stdev: 2.64
+#UDP packets:
+  tx: 349961
+  rx: 349961
+  ratio_p: 0 # %
+  drop: 
+  drop_p: 0 # %
+#Utilization:
+  bw: 0.1 # Mbps
+  time: 50000 # sec
+  mbps: 436.497
+  util: 0.698396
+  snd_pkt: 349961
+  rx_pkt: 349961
+  drop_pkt: 
+  pkt_loss: 0 # %
+#mu10_lambda7.0
+#Done.
+- lambda: 9.0
+  mean: 7.87
+  stdev: 8.74
+#UDP packets:
+  tx: 450039
+  rx: 449772
+  ratio_p: 0.0593282 # %
+  drop: 
+  drop_p: 0 # %
+#Utilization:
+  bw: 0.1 # Mbps
+  time: 50000 # sec
+  mbps: 561.884
+  util: 0.899015
+  snd_pkt: 450039
+  rx_pkt: 449772
+  drop_pkt: 260
+  pkt_loss: 0.0577728 # %
+#mu10_lambda9.0
+#Done.
+- lambda: 9.5
+
+  mean: 14.1
+  stdev: 12.6
+#UDP packets:
+  tx: 475024
+  rx: 472819
+  ratio_p: 0.464187 # %
+  drop: 
+  drop_p: 0 # %
+#Utilization:
+  bw: 0.1 # Mbps
+  time: 50000 # sec
+  mbps: 591.111
+  util: 0.945778
+  snd_pkt: 475024
+  rx_pkt: 472819
+  drop_pkt: 2189
+  pkt_loss: 0.460819 # %
+#mu10_lambda9.5
+#Done.
+- lambda: 9.8
+  mean: 19.8
+  stdev: 14.4
+#UDP packets:
+  tx: 490164
+  rx: 484247
+  ratio_p: 1.20715 # %
+  drop: 
+  drop_p: 0 # %
+#Utilization:
+  bw: 0.1 # Mbps
+  time: 50000 # sec
+  mbps: 605.463
+  util: 0.968741
+  snd_pkt: 490164
+  rx_pkt: 484247
+  drop_pkt: 5893
+  pkt_loss: 1.20225 # %
+#mu10_lambda9.8
+#Done.
+- lambda: 9.9
+  mean: 21.7
+  stdev: 14.6
+#UDP packets:
+  tx: 495073
+  rx: 487213
+  ratio_p: 1.58764 # %
+  drop: 
+  drop_p: 0 # %
+#Utilization:
+  bw: 0.1 # Mbps
+  time: 50000 # sec
+  mbps: 609.148
+  util: 0.974636
+  snd_pkt: 495073
+  rx_pkt: 487213
+  drop_pkt: 7860
+  pkt_loss: 1.58764 # %
+#mu10_lambda9.9
+#Done.

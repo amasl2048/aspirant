@@ -50,11 +50,11 @@ plt.figure(1)
 #py.title(u'Средняя длина очереди')
 plt.xlabel(ur'Нагрузка , $\rho$')
 plt.ylabel(u'Средняя длина очереди')
-plt.plot(rate, qmean, "kx", label=u"математическая модель")
-plt.plot(la2/mu, navg, "o-", label=u"расчёт системы M/M/1:50") #la
+plt.plot(la2/mu, navg, "o-", label=u"расчёт системы M/M/1/50 TD") #la
+plt.plot(rate, qmean, "kx", label=u"математическая модель FLC")
+plt.plot(la2/mu, me2, "o--", label=u"имитационная модель FLC")
 #plt.plot(la/mu, me, "o-.", label=u"моделирование DropTail")
-plt.plot(la2/mu, me2, "o--", label=u"имитационная модель")
 plt.legend(loc="lower right")
-#plt.savefig("mm1.pdf")
+plt.savefig("mm1.pdf")
 
 plt.show()
