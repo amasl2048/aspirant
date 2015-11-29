@@ -4,8 +4,8 @@ import numpy as np
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 
-mpl.rcParams["font.family"] = "serif"
-mpl.rcParams["font.size"] = 32
+#mpl.rcParams["font.family"] = "serif"
+#mpl.rcParams["font.size"] = 32
 
 fname1 = "flc2_prob.log"
 fname2 = "queuesize.log"
@@ -25,7 +25,7 @@ plt.plot(time1, pr, "k-")
 #title(u"Средняя длина очереди")
 plt.xlabel(u"Время, с")
 plt.ylabel(u"Вероятность")
-#plt.savefig("dprob_bw_s.pdf")
+plt.savefig("dprob_bw_s.png")
 
 plt.figure(2)
 #errorbar(rate, qmean, yerr=std, fmt="o")
@@ -33,6 +33,6 @@ plt.plot(time2, qs, "k-")
 #title(u"Средне-квадратичное отклонение (СКО)")
 plt.xlabel(u"Время, с")
 plt.ylabel(u"Размер очереди, пакеты")
-#plt.savefig("qsize_bw_s.pdf")
+plt.savefig("qsize_bw_s.png")
 
-plt.show()
+#plt.show()
