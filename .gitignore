@@ -1,4 +1,6 @@
 *.log
 *.csv
 *.yaml
+*.yml
+*.pdf
 *.txt
