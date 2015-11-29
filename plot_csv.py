@@ -6,14 +6,16 @@ import pandas as pd
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 
-mpl.rcParams["font.family"] = "serif"
-mpl.rcParams["font.size"] = 18
+#mpl.rcParams["font.family"] = "serif"
+#mpl.rcParams["font.size"] = 18
 
 df=pd.read_csv('report_1220_22-00.csv', sep=';', header=0, index_col=None)
 
-plt.plot(df['time'], df['backlog'])
-plt.xlabel(u"Время, сек.")
-plt.ylabel(u"Длина очереди, байты")
+plt.plot(df['time'], df['backlog'], "k-")
+plt.xlabel(u"Время, с")
+plt.ylabel(u"Длина очереди, байт")
+#plt.show()
+plt.savefig("net1_flc.pdf")
 
 print "mean: ", df['backlog'].mean()
 print "std: ", df['backlog'].std()
